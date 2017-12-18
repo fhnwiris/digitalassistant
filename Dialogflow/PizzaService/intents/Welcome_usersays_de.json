@@ -1,0 +1,35 @@
+[
+  {
+    "id": "85bf7309-d371-44e2-869d-0fb08ea6d202",
+    "data": [
+      {
+        "text": "Hi",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "1d4d50dd-4668-4438-ab3b-e09b59d8f116",
+    "data": [
+      {
+        "text": "Guten Tag",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "a5694434-bc1e-4a19-9eb7-bf7de9f86019",
+    "data": [
+      {
+        "text": "Hallo",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  }
+]

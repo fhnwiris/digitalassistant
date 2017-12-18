@@ -1,0 +1,34 @@
+[
+  {
+    "value": "dick",
+    "synonyms": [
+      "dick",
+      "dicker Rand",
+      "dicke Kruste",
+      "dünnen",
+      "dicken Rand",
+      "dickem Rand"
+    ]
+  },
+  {
+    "value": "gefüllt",
+    "synonyms": [
+      "gefüllt",
+      "gefüllter Rand",
+      "gefüllte Kruste",
+      "gefüllten Rand",
+      "gefülltem Rand"
+    ]
+  },
+  {
+    "value": "dünn",
+    "synonyms": [
+      "dünn",
+      "dünner Rand",
+      "dünne Kruste",
+      "dünne",
+      "dünnen Rand",
+      "dünnem Rand"
+    ]
+  }
+]

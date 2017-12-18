@@ -1,0 +1,163 @@
+{
+  "id": "2e141f53-e855-473c-adad-1130f23bb899",
+  "name": "Pizza Ordering",
+  "auto": true,
+  "contexts": [
+    "pizzaOrdering"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.ordering",
+      "affectedContexts": [
+        {
+          "name": "pizzaOrdering",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "bye",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "43a979a6-8b7e-4422-b7a4-a96f19d1e26f",
+          "required": true,
+          "dataType": "@Type",
+          "name": "Type",
+          "value": "$Type",
+          "prompts": [
+            {
+              "lang": "de",
+              "value": "Was für eine Pizza hättest du gerne?"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "cbe21e8f-4e5c-4e93-a2c5-58b79ad43eba",
+          "required": true,
+          "dataType": "@Topping",
+          "name": "Topping",
+          "value": "$Topping",
+          "prompts": [
+            {
+              "lang": "de",
+              "value": "Möchtest du einen zusätzlichen Belag?"
+            }
+          ],
+          "isList": true
+        },
+        {
+          "id": "a4d421ff-a5e4-4376-927e-97af5aa06fcf",
+          "required": true,
+          "dataType": "@Size",
+          "name": "Size",
+          "value": "$Size",
+          "prompts": [
+            {
+              "lang": "de",
+              "value": "Welche Grösse soll deine Pizza haben?"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "04cc1666-8ce3-48d4-a09e-107a17de5566",
+          "required": true,
+          "dataType": "@Crust",
+          "name": "Crust",
+          "value": "$Crust",
+          "prompts": [
+            {
+              "lang": "de",
+              "value": "Möchtest du einen dünnen, dicken oder gefüllten Rand?"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "d4afd331-695c-4cb6-8026-bb246bd47e96",
+          "required": false,
+          "dataType": "@Sauce",
+          "name": "Sauce",
+          "value": "$Sauce",
+          "prompts": [
+            {
+              "lang": "de",
+              "value": "Welche Basis möchtest du?"
+            },
+            {
+              "lang": "de",
+              "value": "Welche Saucenbasis hättest du gerne?"
+            }
+          ],
+          "defaultValue": "Tomatensauce",
+          "isList": false
+        },
+        {
+          "id": "8673ed23-ee43-44dd-a55d-351a376f266d",
+          "required": true,
+          "dataType": "@sys.address",
+          "name": "Address",
+          "value": "$Address",
+          "prompts": [
+            {
+              "lang": "de",
+              "value": "Wohin soll die Lieferung erfolgen?"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "a8c4f12f-a0a2-48b2-b56d-ab8eb6618af7",
+          "required": true,
+          "dataType": "@sys.given-name",
+          "name": "FirstName",
+          "value": "$FirstName",
+          "prompts": [
+            {
+              "lang": "de",
+              "value": "Wie lautet dein Vorname?"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "fb60c95c-10cd-4eb2-948e-1ff6b8082067",
+          "required": true,
+          "dataType": "@sys.last-name",
+          "name": "LastName",
+          "value": "$LastName",
+          "prompts": [
+            {
+              "lang": "de",
+              "value": "Wie lautet dein Nachname?"
+            }
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "de",
+          "speech": [
+            "Sehr gute Wahl. Ich schaue, dass du die beste Pizza $Type mit $Topping bekommst. Kann ich noch was für dich tun?",
+            "Perfekt! Ich schaue, dass du eine $Size Pizza $Type mit $Topping bekommst. Kann ich noch was für dich tun?"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1513591546,
+  "fallbackIntent": false,
+  "events": []
+}

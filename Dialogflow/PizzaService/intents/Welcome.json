@@ -1,0 +1,44 @@
+{
+  "id": "c798ca82-f0ce-4c7f-bdcf-78b613c88697",
+  "name": "Welcome",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.welcome",
+      "affectedContexts": [
+        {
+          "name": "pizzaOrdering",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "de",
+          "speech": [
+            "Hallo! Lass mir dir helfen eine Pizza auszuwählen. Was für eine Pizza möchtest du gerne?",
+            "Guten Tag! Lass mir dir helfen eine Pizza auszuwählen. Was für eine Pizza möchtest du gerne?"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "WELCOME"
+    },
+    {
+      "name": "GOOGLE_ASSISTANT_WELCOME"
+    }
+  ]
+}

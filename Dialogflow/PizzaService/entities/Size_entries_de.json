@@ -1,0 +1,29 @@
+[
+  {
+    "value": "kleine",
+    "synonyms": [
+      "klein",
+      "kleine",
+      "mini"
+    ]
+  },
+  {
+    "value": "mittelere",
+    "synonyms": [
+      "mittel",
+      "normal",
+      "mittlere"
+    ]
+  },
+  {
+    "value": "grosse",
+    "synonyms": [
+      "gross",
+      "grosse",
+      "groß",
+      "große",
+      "riesige",
+      "maxi"
+    ]
+  }
+]

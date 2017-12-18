@@ -1,0 +1,42 @@
+[
+  {
+    "value": "Crème Fraîche",
+    "synonyms": [
+      "Crème fraîche"
+    ]
+  },
+  {
+    "value": "Bechamel",
+    "synonyms": [
+      "Bechamel"
+    ]
+  },
+  {
+    "value": "BBQ",
+    "synonyms": [
+      "BBQ",
+      "Barbecue"
+    ]
+  },
+  {
+    "value": "Tomate",
+    "synonyms": [
+      "Tomate",
+      "Tomatensauce"
+    ]
+  },
+  {
+    "value": "Pesto",
+    "synonyms": [
+      "Pesto"
+    ]
+  },
+  {
+    "value": "ohne",
+    "synonyms": [
+      "ohne",
+      "ohne Sauce",
+      "keine Sauce"
+    ]
+  }
+]

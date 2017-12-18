@@ -1,0 +1,35 @@
+{
+  "id": "bbed380c-6753-4c8c-b71d-1c871c4cc9a6",
+  "name": "Goodbye",
+  "auto": true,
+  "contexts": [
+    "bye"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.bye",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "de",
+          "speech": [
+            "Bis zum nächsten Mal beim Pizza Service!",
+            "Tschüss!",
+            "Auf Wiedersehen beim Pizza Service!"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1513590656,
+  "fallbackIntent": false,
+  "events": []
+}

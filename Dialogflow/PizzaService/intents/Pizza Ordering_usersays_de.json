@@ -1,0 +1,428 @@
+[
+  {
+    "id": "98b6505b-f3b8-4b66-b4ac-9d09d7c31ed8",
+    "data": [
+      {
+        "text": "ich hätte gerne eine ",
+        "userDefined": false
+      },
+      {
+        "text": "kleine",
+        "alias": "Size",
+        "meta": "@Size",
+        "userDefined": false
+      },
+      {
+        "text": " Pizza ",
+        "userDefined": false
+      },
+      {
+        "text": "Prosciutto",
+        "alias": "Type",
+        "meta": "@Type",
+        "userDefined": false
+      },
+      {
+        "text": " mit ",
+        "userDefined": false
+      },
+      {
+        "text": "Oliven",
+        "alias": "Topping",
+        "meta": "@Topping",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "Tomaten",
+        "alias": "Topping",
+        "meta": "@Topping",
+        "userDefined": true
+      },
+      {
+        "text": " und ",
+        "userDefined": false
+      },
+      {
+        "text": "Mozzarella",
+        "alias": "Topping",
+        "meta": "@Topping",
+        "userDefined": false
+      },
+      {
+        "text": " mit ",
+        "userDefined": false
+      },
+      {
+        "text": "dünnem",
+        "alias": "Crust",
+        "meta": "@Crust",
+        "userDefined": true
+      },
+      {
+        "text": " Rand",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "0366d098-e9b5-4ebd-a34c-65cb56039dfe",
+    "data": [
+      {
+        "text": "ich hätte gerne eine ",
+        "userDefined": false
+      },
+      {
+        "text": "große",
+        "alias": "Size",
+        "meta": "@Size",
+        "userDefined": false
+      },
+      {
+        "text": " Pizza bestellt",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "93dbaa93-9578-4e06-91fb-faafc9b96473",
+    "data": [
+      {
+        "text": "ich will eine Pizza bestellen",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "2c28ea86-f0ab-4bc2-963a-0883139dd79d",
+    "data": [
+      {
+        "text": "ich möchte eine zweite Pizza ",
+        "userDefined": false
+      },
+      {
+        "text": "Prosciutto",
+        "alias": "Type",
+        "meta": "@Type",
+        "userDefined": true
+      },
+      {
+        "text": " mit ",
+        "userDefined": false
+      },
+      {
+        "text": "Oliven",
+        "alias": "Topping",
+        "meta": "@Topping",
+        "userDefined": false
+      },
+      {
+        "text": " bestellen",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "13e82572-a509-4170-a1c0-587dc9857f66",
+    "data": [
+      {
+        "text": "die Pizza soll ",
+        "userDefined": false
+      },
+      {
+        "text": "groß",
+        "alias": "Size",
+        "meta": "@Size",
+        "userDefined": true
+      },
+      {
+        "text": " sein",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "844685f2-4849-4ee4-82e6-48175073c796",
+    "data": [
+      {
+        "text": "ich hätte gerne eine ",
+        "userDefined": false
+      },
+      {
+        "text": "große",
+        "alias": "Size",
+        "meta": "@Size",
+        "userDefined": false
+      },
+      {
+        "text": " Pizza ",
+        "userDefined": false
+      },
+      {
+        "text": "Margherita",
+        "alias": "Type",
+        "meta": "@Type",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "bda8696d-4e72-4ea8-afd5-4e5512ff400c",
+    "data": [
+      {
+        "text": "groß",
+        "alias": "Size",
+        "meta": "@Size",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "da78e4c8-b929-4abe-8e82-13112f482ba4",
+    "data": [
+      {
+        "text": "Hans",
+        "alias": "FirstName",
+        "meta": "@sys.given-name",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "Müller",
+        "alias": "LastName",
+        "meta": "@sys.last-name",
+        "userDefined": true
+      },
+      {
+        "text": " in ",
+        "userDefined": false
+      },
+      {
+        "text": "Basel",
+        "alias": "Address",
+        "meta": "@sys.address",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "ad1ae52f-ac64-4feb-a8a3-59f42a41db35",
+    "data": [
+      {
+        "text": "Bitte liefere die Pizza an ",
+        "userDefined": false
+      },
+      {
+        "text": "Hans",
+        "alias": "FirstName",
+        "meta": "@sys.given-name",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "Meier",
+        "alias": "LastName",
+        "meta": "@sys.last-name",
+        "userDefined": true
+      },
+      {
+        "text": " an die ",
+        "userDefined": false
+      },
+      {
+        "text": "Baselstrasse 20 in Aarau",
+        "alias": "Address",
+        "meta": "@sys.address",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "8ad7b78d-221e-4e08-ac89-815640387b26",
+    "data": [
+      {
+        "text": "Ich hätte gerne ",
+        "userDefined": false
+      },
+      {
+        "text": "Crème Fraîche",
+        "alias": "Sauce",
+        "meta": "@Sauce",
+        "userDefined": false
+      },
+      {
+        "text": " als Saucenbasis",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "37157a0a-c62b-4d9b-96d0-f23f84ed40cb",
+    "data": [
+      {
+        "text": "Ich möchte eine ",
+        "userDefined": false
+      },
+      {
+        "text": "mittlere",
+        "alias": "Size",
+        "meta": "@Size",
+        "userDefined": false
+      },
+      {
+        "text": " Pizza ",
+        "userDefined": false
+      },
+      {
+        "text": "Margherita",
+        "alias": "Type",
+        "meta": "@Type",
+        "userDefined": false
+      },
+      {
+        "text": " mit ",
+        "userDefined": false
+      },
+      {
+        "text": "dünnem",
+        "alias": "Crust",
+        "meta": "@Crust",
+        "userDefined": true
+      },
+      {
+        "text": " Rand und ",
+        "userDefined": false
+      },
+      {
+        "text": "Salami",
+        "alias": "Topping",
+        "meta": "@Topping",
+        "userDefined": true
+      },
+      {
+        "text": ", ",
+        "userDefined": false
+      },
+      {
+        "text": "Mozzarella",
+        "alias": "Topping",
+        "meta": "@Topping",
+        "userDefined": true
+      },
+      {
+        "text": " und ",
+        "userDefined": false
+      },
+      {
+        "text": "Tomaten",
+        "alias": "Topping",
+        "meta": "@Topping",
+        "userDefined": true
+      },
+      {
+        "text": " bestellen",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "da83ddf9-f7d6-4a23-b89a-858ffe727807",
+    "data": [
+      {
+        "text": "Ich hätte gerne eine ",
+        "userDefined": false
+      },
+      {
+        "text": "grosse",
+        "alias": "Size",
+        "meta": "@Size",
+        "userDefined": false
+      },
+      {
+        "text": " Pizza ",
+        "userDefined": false
+      },
+      {
+        "text": "Hawaii",
+        "alias": "Type",
+        "meta": "@Type",
+        "userDefined": false
+      },
+      {
+        "text": " mit ",
+        "userDefined": false
+      },
+      {
+        "text": "Tomaten",
+        "alias": "Topping",
+        "meta": "@Topping",
+        "userDefined": false
+      },
+      {
+        "text": ", ",
+        "userDefined": false
+      },
+      {
+        "text": "Mozzarella",
+        "alias": "Topping",
+        "meta": "@Topping",
+        "userDefined": true
+      },
+      {
+        "text": " und ",
+        "userDefined": false
+      },
+      {
+        "text": "Oliven",
+        "alias": "Topping",
+        "meta": "@Topping",
+        "userDefined": true
+      },
+      {
+        "text": " bestellt",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  }
+]
